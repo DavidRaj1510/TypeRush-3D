@@ -1,0 +1,37 @@
+
+.boss-attack {
+  animation: boss-attack-flash 0.5s ease-out;
+}
+
+@keyframes boss-attack-flash {
+  0% { background-color: rgba(255, 0, 0, 0); }
+  50% { background-color: rgba(255, 0, 0, 0.3); }
+  100% { background-color: rgba(255, 0, 0, 0); }
+}
+
+/* XP gain animation */
+.xp-gain {
+  animation: xp-gain-pulse 1s ease-out;
+}
+
+@keyframes xp-gain-pulse {
+  0% { transform: scale(1); color: white; }
+  50% { transform: scale(1.2); color: #ffcc00; }
+  100% { transform: scale(1); color: #ffcc00; }
+}
+
+/* Boss defeat animation */
+.boss-defeat {
+  animation: boss-defeat 1.5s ease-out;
+}
+
+@keyframes boss-defeat {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.5); opacity: 0.7; }
+  100% { transform: scale(0.1); opacity: 0; }
+}
+
+/* Progress bar styling */
+.boss-health-bar {
+  background-image: linear-gradient(to right, #ef4444, #fb923c);
+}
