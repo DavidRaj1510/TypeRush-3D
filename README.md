@@ -1,12 +1,34 @@
-# React + Vite
+# TypeRush-3D ⌨️🚗
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**TypeRush-3D** is an interactive typing game combined with immersive 3D visuals. Designed to help improve typing speed and accuracy while offering a visually engaging experience using Three.js and modern React tools.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:** [Click to Play](https://davidraj1510.github.io/TypeRush-3D/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🎮 Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⌨️ Real-time typing challenge
+- 🌐 Smooth client-side navigation with React
+- 🧠 Built with **TypeScript** for safety and scalability
+- 🖼️ Immersive 3D experience using **Three.js** and **React Three Fiber**
+- 🧩 3D helpers and interactions via **@react-three/drei**
+- 🎨 Clean and responsive UI using **Tailwind CSS**
+- 🧱 Accessible components styled with **Radix UI**
+- 🚀 Fully deployed on **GitHub Pages**
+
+---
+
+## 🔧 Tech Stack
+
+| Tech                    | Purpose                                         |
+|-------------------------|-------------------------------------------------|
+| **React**               | UI framework                                    |
+| **TypeScript**          | Static typing                                   |
+| **Three.js**            | Core 3D rendering                               |
+| **React Three Fiber**   | React renderer for Three.js                     |
+| **Drei**                | Useful helpers for React Three Fiber            |
+| **Tailwind CSS**        | Utility-first CSS framework                     |
+| **Radix UI**            | Accessible UI primitives for React              |
+
+---
